@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "src",
+    "outDir": "lib/cjs",
+    "noImplicitAny": false,
+    "declaration": true,
+    "allowJs": true
+  },
+  "include": ["./src"]
+}
