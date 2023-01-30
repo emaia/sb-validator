@@ -3,7 +3,6 @@
 import { LangInterface } from './types';
 import { mergeDeep } from './utils/object';
 import locales from './locales/index';
-import { default as fallbackMessages} from './locales/en';
 
 const lang: LangInterface = {
 
@@ -40,7 +39,7 @@ const lang: LangInterface = {
     /**
      * Stores the fallback messages
      */
-    fallbackMessages: fallbackMessages,
+    fallbackMessages: require('./locales/en').default,
 
     /**
      * Path of the validation translations in the main project

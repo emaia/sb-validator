@@ -1,6 +1,6 @@
 {
   "name": "sb-validator",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "description": "This package is inspired by Laravel validation, and aims to make body validation easier for Javascript developers",
   "main": "./lib/cjs/index.js",
   "module": "./lib/ecm/index.js",
