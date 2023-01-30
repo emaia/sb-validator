@@ -2,13 +2,13 @@
   "name": "sb-validator",
   "version": "1.2.15",
   "description": "This package is inspired by Laravel validation, and aims to make body validation easier for Javascript developers",
-  "main": "./lib/cjs/index.js",
+
   "module": "./lib/ecm/index.js",
   "files": [
     "lib/"
   ],
   "scripts": {
-    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "tsc": "tsc -p tsconfig-cjs.json",
     "prepublish": "npm run tsc",
     "test": "mocha"
   },
